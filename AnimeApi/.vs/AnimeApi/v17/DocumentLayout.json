@@ -1,0 +1,156 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\GL17CH3R\\source\\repos\\AnimeApi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B572EF93-A10D-436D-93CE-D80FE5E84D3D}|AnimeApi\\AnimeApi.csproj|c:\\users\\gl17ch3r\\source\\repos\\animeapi\\animeapi\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B572EF93-A10D-436D-93CE-D80FE5E84D3D}|AnimeApi\\AnimeApi.csproj|solutionrelative:animeapi\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B572EF93-A10D-436D-93CE-D80FE5E84D3D}|AnimeApi\\AnimeApi.csproj|c:\\users\\gl17ch3r\\source\\repos\\animeapi\\animeapi\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B572EF93-A10D-436D-93CE-D80FE5E84D3D}|AnimeApi\\AnimeApi.csproj|solutionrelative:animeapi\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B572EF93-A10D-436D-93CE-D80FE5E84D3D}|AnimeApi\\AnimeApi.csproj|c:\\users\\gl17ch3r\\source\\repos\\animeapi\\animeapi\\models\\anime.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B572EF93-A10D-436D-93CE-D80FE5E84D3D}|AnimeApi\\AnimeApi.csproj|solutionrelative:animeapi\\models\\anime.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B572EF93-A10D-436D-93CE-D80FE5E84D3D}|AnimeApi\\AnimeApi.csproj|c:\\users\\gl17ch3r\\source\\repos\\animeapi\\animeapi\\models\\animedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B572EF93-A10D-436D-93CE-D80FE5E84D3D}|AnimeApi\\AnimeApi.csproj|solutionrelative:animeapi\\models\\animedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B572EF93-A10D-436D-93CE-D80FE5E84D3D}|AnimeApi\\AnimeApi.csproj|c:\\users\\gl17ch3r\\source\\repos\\animeapi\\animeapi\\controllers\\animescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B572EF93-A10D-436D-93CE-D80FE5E84D3D}|AnimeApi\\AnimeApi.csproj|solutionrelative:animeapi\\controllers\\animescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B572EF93-A10D-436D-93CE-D80FE5E84D3D}|AnimeApi\\AnimeApi.csproj|c:\\users\\gl17ch3r\\source\\repos\\animeapi\\animeapi\\models\\watchlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B572EF93-A10D-436D-93CE-D80FE5E84D3D}|AnimeApi\\AnimeApi.csproj|solutionrelative:animeapi\\models\\watchlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B572EF93-A10D-436D-93CE-D80FE5E84D3D}|AnimeApi\\AnimeApi.csproj|c:\\users\\gl17ch3r\\source\\repos\\animeapi\\animeapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B572EF93-A10D-436D-93CE-D80FE5E84D3D}|AnimeApi\\AnimeApi.csproj|solutionrelative:animeapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B572EF93-A10D-436D-93CE-D80FE5E84D3D}|AnimeApi\\AnimeApi.csproj|c:\\users\\gl17ch3r\\source\\repos\\animeapi\\animeapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B572EF93-A10D-436D-93CE-D80FE5E84D3D}|AnimeApi\\AnimeApi.csproj|solutionrelative:animeapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AnimesController.cs",
+              "DocumentMoniker": "C:\\Users\\GL17CH3R\\source\\repos\\AnimeApi\\AnimeApi\\Controllers\\AnimesController.cs",
+              "RelativeDocumentMoniker": "AnimeApi\\Controllers\\AnimesController.cs",
+              "ToolTip": "C:\\Users\\GL17CH3R\\source\\repos\\AnimeApi\\AnimeApi\\Controllers\\AnimesController.cs",
+              "RelativeToolTip": "AnimeApi\\Controllers\\AnimesController.cs",
+              "ViewState": "AgIAAFkAAAAAAAAAAAAuwAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-03T22:09:46.389Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "C:\\Users\\GL17CH3R\\source\\repos\\AnimeApi\\AnimeApi\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "AnimeApi\\Controllers\\UsersController.cs",
+              "ToolTip": "C:\\Users\\GL17CH3R\\source\\repos\\AnimeApi\\AnimeApi\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "AnimeApi\\Controllers\\UsersController.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAiwCMAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-03T22:08:56.032Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\GL17CH3R\\source\\repos\\AnimeApi\\AnimeApi\\appsettings.json",
+              "RelativeDocumentMoniker": "AnimeApi\\appsettings.json",
+              "ToolTip": "C:\\Users\\GL17CH3R\\source\\repos\\AnimeApi\\AnimeApi\\appsettings.json",
+              "RelativeToolTip": "AnimeApi\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-10-03T22:01:49.547Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\GL17CH3R\\source\\repos\\AnimeApi\\AnimeApi\\Program.cs",
+              "RelativeDocumentMoniker": "AnimeApi\\Program.cs",
+              "ToolTip": "C:\\Users\\GL17CH3R\\source\\repos\\AnimeApi\\AnimeApi\\Program.cs",
+              "RelativeToolTip": "AnimeApi\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-03T22:00:11.931Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AnimeDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\GL17CH3R\\source\\repos\\AnimeApi\\AnimeApi\\Models\\AnimeDbContext.cs",
+              "RelativeDocumentMoniker": "AnimeApi\\Models\\AnimeDbContext.cs",
+              "ToolTip": "C:\\Users\\GL17CH3R\\source\\repos\\AnimeApi\\AnimeApi\\Models\\AnimeDbContext.cs",
+              "RelativeToolTip": "AnimeApi\\Models\\AnimeDbContext.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAcwDAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-03T21:59:08.776Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Watchlist.cs",
+              "DocumentMoniker": "C:\\Users\\GL17CH3R\\source\\repos\\AnimeApi\\AnimeApi\\Models\\Watchlist.cs",
+              "RelativeDocumentMoniker": "AnimeApi\\Models\\Watchlist.cs",
+              "ToolTip": "C:\\Users\\GL17CH3R\\source\\repos\\AnimeApi\\AnimeApi\\Models\\Watchlist.cs",
+              "RelativeToolTip": "AnimeApi\\Models\\Watchlist.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAYwBQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-03T21:57:30.374Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Anime.cs",
+              "DocumentMoniker": "C:\\Users\\GL17CH3R\\source\\repos\\AnimeApi\\AnimeApi\\Models\\Anime.cs",
+              "RelativeDocumentMoniker": "AnimeApi\\Models\\Anime.cs",
+              "ToolTip": "C:\\Users\\GL17CH3R\\source\\repos\\AnimeApi\\AnimeApi\\Models\\Anime.cs",
+              "RelativeToolTip": "AnimeApi\\Models\\Anime.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAmwCMAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-03T21:56:54.748Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\GL17CH3R\\source\\repos\\AnimeApi\\AnimeApi\\Models\\User.cs",
+              "RelativeDocumentMoniker": "AnimeApi\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\GL17CH3R\\source\\repos\\AnimeApi\\AnimeApi\\Models\\User.cs",
+              "RelativeToolTip": "AnimeApi\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-03T21:56:18.37Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
