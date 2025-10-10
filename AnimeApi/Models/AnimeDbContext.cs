@@ -12,7 +12,7 @@ namespace AnimeApi.Models
 
         // DbSet properties represent tables in the database
         public DbSet<User> Users { get; set; }
-        public DbSet<Anime> Animes { get; set; }
+        public DbSet<Anime> Anime { get; set; }
         public DbSet<Watchlist> Watchlists { get; set; }
 
         // Configure relationships and constraints
