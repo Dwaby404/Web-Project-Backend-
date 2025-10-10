@@ -6,27 +6,27 @@ namespace AnimeApi.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class AnimesController : ControllerBase
+    public class AnimeController : ControllerBase
     {
         private readonly AnimeDbContext _context;
 
-        public AnimesController(AnimeDbContext context)
+        public AnimeController(AnimeDbContext context)
         {
             _context = context;
         }
 
         // GET: api/animes
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<Anime>>> GetAnimes()
+        public async Task<ActionResult<IEnumerable<Anime>>> GetAnime()
         {
-            return await _context.Animes.ToListAsync();
+            return await _context.Anime.ToListAsync();
         }
 
         // GET: api/animes/5
         [HttpGet("{id}")]
         public async Task<ActionResult<Anime>> GetAnime(int id)
         {
-            var anime = await _context.Animes.FindAsync(id);
+            var anime = await _context.Anime.FindAsync(id);
 
             if (anime == null)
             {
@@ -40,22 +40,22 @@ namespace AnimeApi.Controllers
         [HttpGet("genre/{genre}")]
         public async Task<ActionResult<IEnumerable<Anime>>> GetAnimesByGenre(string genre)
         {
-            var animes = await _context.Animes
+            var anime = await _context.Anime
                 .Where(a => a.Genre == genre)
                 .ToListAsync();
 
-            return animes;
+            return anime;
         }
 
         // GET: api/animes/year/2023 - Another filtered query
         [HttpGet("year/{year}")]
         public async Task<ActionResult<IEnumerable<Anime>>> GetAnimesByYear(int year)
         {
-            var animes = await _context.Animes
+            var anime = await _context.Anime
                 .Where(a => a.ReleaseYear == year)
                 .ToListAsync();
 
-            return animes;
+            return anime;
         }
 
         // POST: api/animes
@@ -63,12 +63,12 @@ namespace AnimeApi.Controllers
         public async Task<ActionResult<Anime>> CreateAnime(Anime anime)
         {
             // Duplicate code check
-            if (await _context.Animes.AnyAsync(a => a.Code == anime.Code))
+            if (await _context.Anime.AnyAsync(a => a.Code == anime.Code))
             {
                 return BadRequest(new { message = "Anime code already exists" });
             }
 
-            _context.Animes.Add(anime);
+            _context.Anime.Add(anime);
             await _context.SaveChangesAsync();
 
             return CreatedAtAction(nameof(GetAnime), new { id = anime.Id }, anime);
@@ -84,7 +84,7 @@ namespace AnimeApi.Controllers
             }
 
             // Check if code is taken by another anime
-            if (await _context.Animes.AnyAsync(a => a.Code == anime.Code && a.Id != id))
+            if (await _context.Anime.AnyAsync(a => a.Code == anime.Code && a.Id != id))
             {
                 return BadRequest(new { message = "Anime code already exists" });
             }
@@ -111,13 +111,13 @@ namespace AnimeApi.Controllers
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteAnime(int id)
         {
-            var anime = await _context.Animes.FindAsync(id);
+            var anime = await _context.Anime.FindAsync(id);
             if (anime == null)
             {
                 return NotFound(new { message = "Anime not found" });
             }
 
-            _context.Animes.Remove(anime);
+            _context.Anime.Remove(anime);
             await _context.SaveChangesAsync();
 
             return NoContent();
@@ -125,7 +125,7 @@ namespace AnimeApi.Controllers
 
         private async Task<bool> AnimeExists(int id)
         {
-            return await _context.Animes.AnyAsync(e => e.Id == id);
+            return await _context.Anime.AnyAsync(e => e.Id == id);
         }
     }
 }
